@@ -8,8 +8,8 @@ Scope of work: Creating React application based on the provided design.
 
 ## Development Environment Setup
 ```
-git clone https://github.com/mathankumar08/machine-test.git
-cd mathankumar08/machine-test
+git clone https://github.com/mathankumar08/tarush-machine-test.git
+cd mathankumar08/tarush-machine-test
 yarn install
 yarn dev
 
