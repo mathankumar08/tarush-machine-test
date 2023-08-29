@@ -1,0 +1,45 @@
+.menu-items {
+    overflow: hidden;
+    li {
+        list-style-type: none;
+        float: left;
+        margin: 0 15px;
+        font-size: 16px;
+        &:hover {
+            cursor: pointer;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
+        }
+    }
+    .selected {
+        border-bottom: 1px solid #000;
+        padding-bottom: 3px;
+    }
+}
+.mobile-menu-items {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.25s ease;
+    padding: 0 0 0px;
+    &.active {
+        padding: 0 0 10px;
+        height: 256px;
+    }
+    li {
+        font-size: 16px;
+        padding: 10px 20px;
+        &.selected {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    }
+}
